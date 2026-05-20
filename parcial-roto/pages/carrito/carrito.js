@@ -1,6 +1,6 @@
 function obtenerCarrito() 
 {
-    return;
+    return JSON.parse(localStorage.getItem("carrito")) || [];
 }
 
 function cargarProductosCarrito() 
